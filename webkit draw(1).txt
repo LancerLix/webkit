@@ -1,0 +1,47 @@
+V/PinyinIME( 1031): onKeyDown:22
+I/PinyinIME( 1031): onKeyDown:System handler the keyevent
+D/BrowserActivity( 1506): >>>>>>>>>>>>>==========oldkeyCode =22 ,newkeyCode=22
+V/webview ( 1506): keyDown at 1389162741797keyCode=22, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3296121, downTime=3296121, deviceId=-1, source=0x0 }, unicode=0
+D/WebView.cpp( 1506): cursorRingBounds 
+D/WebView.cpp( 1506): nativeMoveCursor env=0xf2e0 obj=0x42500019 view=0x201608
+D/WebView.cpp( 1506): KeyToDirection keyCode=right
+D/WebView.cpp( 1506): moveCursor old cursor 0 (nativeNode=0x0) cursorLocation={959, 360}
+V/webcore ( 1506): KEY_DOWN arg1=0 arg2=0 obj=KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3296121, downTime=3296121, deviceId=-1, source=0x0 }
+D/WebView.cpp( 1506): setVisibleRect getVisibleRect 0,0,1280,720
+D/navcache( 1506): innerMove mHistory->didFirstLayout()=false && mCursorIndex=-2
+D/WebView.cpp( 1506): moveCursor new cursor 0 (nativeNode=0x0) cursorLocation={320, 360}bounds={0,0,w=0,h=0}
+D/WebView.cpp( 1506): moveCursor scrollBy 320,0
+V/webcore ( 1506): CORE key at 1389162741797, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3296121, downTime=3296121, deviceId=-1, source=0x0 }
+D/KeyEvent( 1506): ===========================>>>>PlatformKeyboardEvent keyCode:22, windowsKeyCodeForKeyEvent:39
+D/WebViewCore.cpp( 1506): key keyCode=Right unichar=0 focusNode=0x0
+V/webview ( 1506): navHandledKey mLastCursorBounds=Rect(0, 0 - 0, 0) mLastCursorTime=0 handled=false
+V/webcore ( 1506): key: arrow unused by page: 22
+V/webcore ( 1506): WEBKIT_DRAW arg1=0 arg2=0 obj=null
+V/webcore ( 1506): webkitDraw start
+D/WebViewCore.cpp( 1506): recordPictureSet m_lastFocused=0x0 oldFocusNode=0x0 m_lastFocusedBounds={0,0,0,0} oldBounds={0,0,0,0} m_lastFocusedSelection={0,0} oldSelection={0,0} m_check_domtree_version=true latestVersion=3588 m_domtree_version=3544
+D/WebViewCore.cpp( 1506): recordPictureSet call updateFrameCache
+D/WebViewCore.cpp( 1506): recordPicture view=(w=1280,h=720)
+D/WebViewCore.cpp( 1506): updateFrameCache cachedFocusNode=0 (nodePointer=0x0)
+D/WebViewCore.cpp( 1506): ==============BackgroundColor R=0 G=0 B=0=color.alpha()=0=>>>>>>>>>>>>>createBaseLayer[928]
+V/webcore ( 1506): webkitDraw NEW_PICTURE_MSG_ID
+V/webview ( 1506): NEW_PICTURE_MSG_ID
+D/WebView.cpp( 1506): getFrameCache m_viewImpl->m_updatedFrameCache == true
+V/webview ( 1506): sendViewSizeZoom  newWidth:1280 mLastWidthSent:1280 newHeight:720 mLastHeightSent:720
+V/webview ( 1506): NEW_PICTURE_MSG_ID {340,154,690,420}
+D/WebView ( 1506): ================================>onDraw
+D/WebView ( 1506): ==============================>drawCoreAndCursorRing
+V/webview ( 1506): drawCoreAndCursorRing2  mZoomManager.getScale():1.5 mZoomManager.getHeightChgScale():1.0
+V/webview ( 1506): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+V/webview ( 1506): bottom = 720.0left = 0.0right = 1280.0top = 0.0
+I/PinyinIME( 1031): onKeyUp:22
+I/PinyinIME( 1031): onKeyUp:System handler the keyevent
+D/BrowserActivity( 1506): >>>>>>>>>>>>>==========oldkeyCode =22 ,newkeyCode=22
+V/webview ( 1506): keyUp at 1389162741948, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3296273, downTime=3296273, deviceId=-1, source=0x0 }, unicode=0
+V/webcore ( 1506): LOAD_URL arg1=0 arg2=0 obj=com.android.iptv.webkit.WebViewCore$GetUrlData@41b904f8
+V/webcore ( 1506):  CORE loadUrl javascript:window.local_fun.saveJSRet(top.document.readyState);
+V/webcore ( 1506): LOAD_URL arg1=0 arg2=0 obj=com.android.iptv.webkit.WebViewCore$GetUrlData@41b90ba0
+V/webcore ( 1506):  CORE loadUrl javascript:window.local_fun.saveJSRet(top.frames.length);
+V/webcore ( 1506): LOAD_URL arg1=0 arg2=0 obj=com.android.iptv.webkit.WebViewCore$GetUrlData@41b912f8
+V/webcore ( 1506):  CORE loadUrl javascript:window.local_fun.saveJSRet(top.document.activeElement.tagName);
+V/webcore ( 1506): LOAD_URL arg1=0 arg2=0 obj=com.android.iptv.webkit.WebViewCore$GetUrlData@41dd9548
+V/webcore ( 1506):  CORE loadUrl javascript:window.local_fun.saveJSRet(top.document.links.length);

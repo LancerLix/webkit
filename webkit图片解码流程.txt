@@ -1,0 +1,14 @@
+1.CachedResourceRequest::didReceiveData
+  CachedResourceRequest::didFinishLoading
+
+2.CachedImage::data
+
+3.Image::setData
+
+4.BitmapImage::dataChanged
+
+5.ImageSourceAndroid::setData
+
+6.SkImageDecoder::decode
+
+7.skia.soµ÷ÓÃlibjpeg½âÂë

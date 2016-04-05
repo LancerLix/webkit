@@ -1,0 +1,14 @@
+ÓÉjava²ã   µ½webcore cpp ²ã
+
+
+(1)		WebView.java    onKeyDown
+(2)		WebViewClassic.java  onKeyDown  -->sendKeyEvent -->sendBatchableInputMessage
+(3)		WebViewCore.java  sendMessage --> key --> nativeKey
+
+(4)		WebViewCore.cpp key --> key
+(5)		EventHandler.cpp keyEvent
+(6)		EventDispatcher.cpp dispatchEvent
+(7)		Node.cpp defaultEventHandler
+(8)		EventHandler.cpp defaultKeyboardEventHandler --> defaultArrowEventHandler 
+(9)		FocusController.cpp  advanceFocus
+(10)		FocusController.cpp  advanceFocusDirectionally

@@ -1,0 +1,30 @@
+V/PinyinIME( 1065): onKeyDown:21
+I/PinyinIME( 1065): onKeyDown:System handler the keyevent
+D/BrowserActivity( 4419): >>>>>>>>>>>>>==========oldkeyCode =21 ,newkeyCode=21
+V/webview ( 4419): keyDown at 1167660381284keyCode=21, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=7589128, downTime=7589128, deviceId=-1, source=0x0 }, unicode=0
+V/webcore ( 4419): KEY_DOWN arg1=0 arg2=0 obj=KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=7589128, downTime=7589128, deviceId=-1, source=0x0 }
+V/webcore ( 4419): CORE key at 1167660381284, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=7589128, downTime=7589128, deviceId=-1, source=0x0 }
+D/KeyEvent( 4419): ===========================>>>>PlatformKeyboardEvent keyCode:21, windowsKeyCodeForKeyEvent:37
+D/WebViewCore.cpp( 4419): key keyCode=Left unichar=0 focusNode=0x0
+V/webcore ( 4419): key: arrow unused by page: 21
+V/webcore ( 4419): WEBKIT_DRAW arg1=0 arg2=0 obj=null
+V/webcore ( 4419): webkitDraw start
+D/WebViewCore.cpp( 4419): recordPictureSet m_lastFocused=0x0 oldFocusNode=0x0 m_lastFocusedBounds={0,0,0,0} oldBounds={0,0,0,0} m_lastFocusedSelection={0,0} oldSelection={0,0} m_check_domtree_version=true latestVersion=3245 m_domtree_version=3201
+D/WebViewCore.cpp( 4419): recordPictureSet call updateFrameCache
+D/WebViewCore.cpp( 4419): recordPicture view=(w=1280,h=720)
+D/WebViewCore.cpp( 4419): updateFrameCache cachedFocusNode=0 (nodePointer=0x0)
+D/WebViewCore.cpp( 4419): ==============BackgroundColor R=0 G=0 B=0=color.alpha()=0=>>>>>>>>>>>>>createBaseLayer[928]
+V/webcore ( 4419): webkitDraw NEW_PICTURE_MSG_ID
+V/webview ( 4419): NEW_PICTURE_MSG_ID
+D/WebView.cpp( 4419): getFrameCache m_viewImpl->m_updatedFrameCache == true
+V/webview ( 4419): sendViewSizeZoom  newWidth:1280 mLastWidthSent:1280 newHeight:720 mLastHeightSent:720
+V/webview ( 4419): NEW_PICTURE_MSG_ID {340,154,690,420}
+D/WebView ( 4419): ================================>onDraw
+D/WebView ( 4419): ==============================>drawCoreAndCursorRing
+V/webview ( 4419): drawCoreAndCursorRing2  mZoomManager.getScale():1.5 mZoomManager.getHeightChgScale():1.0
+V/webview ( 4419): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+V/webview ( 4419): bottom = 720.0left = 0.0right = 1280.0top = 0.0
+I/PinyinIME( 1065): onKeyUp:21
+I/PinyinIME( 1065): onKeyUp:System handler the keyevent
+D/BrowserActivity( 4419): >>>>>>>>>>>>>==========oldkeyCode =21 ,newkeyCode=21
+V/webview ( 4419): keyUp at 1167660381436, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=7589281, downTime=7589281, deviceId=-1, source=0x0 }, unicode=0

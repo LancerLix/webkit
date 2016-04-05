@@ -1,0 +1,21 @@
+class CONTENT_EXPORT WebContentsImpl
+    : public NON_EXPORTED_BASE(WebContents),
+      public RenderViewHostDelegate,
+      public RenderWidgetHostDelegate,
+      public RenderViewHostManager::Delegate,
+      public NotificationObserver 
+
+class Browser : public TabStripModelObserver,
+                public content::WebContentsDelegate,
+                public CoreTabHelperDelegate,
+                public SearchEngineTabHelperDelegate,
+                public ChromeWebModalDialogManagerDelegate,
+                public BlockedContentTabHelperDelegate,
+                public BookmarkTabHelperDelegate,
+                public ZoomObserver,
+                public content::PageNavigator,
+                public content::NotificationObserver,
+                public ui::SelectFileDialog::Listener
+
+RenderViewHostImpl
+RenderViewImpl
